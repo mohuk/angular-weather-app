@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --port=9000",
-    "build": "webpack"
+    "start": "webpack-dev-server --port=9000 --host 0.0.0.0",
+    "build": "rimraf ./dist && webpack --progress --config ./config/webpack.prod.js"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +33,7 @@
     "json-loader": "^0.5.4",
     "node-sass": "^4.5.2",
     "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
     "script-loader": "^0.7.0",
     "source-map-loader": "^0.1.5",
