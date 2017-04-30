@@ -1,0 +1,34 @@
+<div class="demo-container" mdl-shadow="2">
+      <mdl-layout mdl-layout-fixed-header mdl-layout-header-seamed>
+          <mdl-layout-header>
+            <mdl-layout-header-row>
+                <mdl-layout-title>Weather App</mdl-layout-title>
+                <mdl-layout-spacer></mdl-layout-spacer>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                  <a class="mdl-navigation__link" href="https://github.com/mohuk/angular-weather-app" target="_blank">
+                    <img src="../../resources/github-logo-sm.png"/>
+                  </a>
+                </nav>
+            </mdl-layout-header-row>
+          </mdl-layout-header>
+          <mdl-layout-drawer>
+            <mdl-layout-title>Weather App</mdl-layout-title>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" >Search</a>
+                <a class="mdl-navigation__link" >About</a>
+            </nav>
+          </mdl-layout-drawer>
+          <mdl-layout-content class="wa-container">
+            <h5>
+              Welcome to the Angular Fundamentals Weather App. This app is aimed to demonstrate the basic building blocks of the Angular framework. You can simply search for your city see the weather forecast for the upcoming days. The application makes use of the amazing <a href="https://openweathermap.org/api" target="_blank">Open Weather Map API</a>.
+            </h5>
+            <h5>
+              Feel free to fork the project from <a href="https://github.com/mohuk/angular-weather-app" target="_blank">here</a> and extend the project as you like.
+            </h5>
+              <button mdl-button mdl-button-type="raised" mdl-ripple>
+                Search
+              </button>
+          </mdl-layout-content>
+      </mdl-layout>
+    </div>
