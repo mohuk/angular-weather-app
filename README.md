@@ -27,3 +27,11 @@ npm run start
 ```
 
 Open your browser to [localhost:9000](http://localhost:9000) to start running the code.
+
+### Build
+
+```bash
+npm run build
+```
+
+Locate the build in the `./dist` folder.
